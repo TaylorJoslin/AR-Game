@@ -68,7 +68,6 @@ public class ARShoot : MonoBehaviour
             Vector3 directionWithoutSpread = targetPoint = transform.position;
 
             GameObject newProjectile = Instantiate(projectile,transform.position, Quaternion.Euler(90f, 0f, 0f));
-            //newProjectile.transform.position = transform.position;
             Vector3 shotVelocity = transform.forward.normalized * shotSpeed;
             newProjectile.GetComponent<Rigidbody>().velocity = shotVelocity;
             

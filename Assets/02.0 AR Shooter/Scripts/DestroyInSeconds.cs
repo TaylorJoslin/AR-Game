@@ -15,6 +15,6 @@ public class DestroyInSeconds : MonoBehaviour
     public void DestroyObjectDelayed()
     {
         
-        Destroy(bullet, 2);
+        Destroy(bullet, 5);
     }
 }

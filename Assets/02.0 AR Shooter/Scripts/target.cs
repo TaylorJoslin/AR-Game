@@ -7,6 +7,7 @@ public class target : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Destroy(this.gameObject);
+        ScoreSystem.instance.AddPoints();
     }
 
     

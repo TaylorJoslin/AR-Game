@@ -8,6 +8,7 @@ TagManager:
   - Mesh
   - Face
   - Wall
+  - boundry
   layers:
   - Default
   - TransparentFX
