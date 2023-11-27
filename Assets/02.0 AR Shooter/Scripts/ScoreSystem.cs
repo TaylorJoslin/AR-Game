@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ScoreSystem : MonoBehaviour
 {
@@ -25,14 +26,16 @@ public class ScoreSystem : MonoBehaviour
 
     private void Update()
     {
-        if (Score == 15)
+        if (Score == 4)
         {
-            winText.SetActive(true);
-            Time.timeScale = 0;
+            NextLevel();
         }
     }
 
-
+    public void NextLevel()
+    {
+        SceneManager.LoadScene(2);
+    }
 
     public void AddPoints()
     {

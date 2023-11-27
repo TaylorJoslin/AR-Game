@@ -9,6 +9,7 @@ TagManager:
   - Face
   - Wall
   - boundry
+  - Charged
   layers:
   - Default
   - TransparentFX
@@ -17,8 +18,8 @@ TagManager:
   - Water
   - UI
   - MeshPlaceable
-  - 
-  - 
+  - Ground
+  - Player
   - 
   - 
   - 
