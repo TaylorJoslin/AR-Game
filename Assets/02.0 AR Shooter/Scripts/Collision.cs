@@ -13,5 +13,12 @@ public class Collision : MonoBehaviour
             gameOverText.SetActive(true);
             Time.timeScale = 0;
         }
+
+        if (other.gameObject.tag == "EnemyBullet")
+        {
+            gameOverText.SetActive(true);
+            Time.timeScale = 0;
+        }
+            
     }
 }

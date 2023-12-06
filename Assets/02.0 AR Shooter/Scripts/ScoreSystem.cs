@@ -26,7 +26,7 @@ public class ScoreSystem : MonoBehaviour
 
     private void Update()
     {
-        if (Score == 4)
+        if (Score == 3)
         {
             NextLevel();
         }
@@ -34,7 +34,7 @@ public class ScoreSystem : MonoBehaviour
 
     public void NextLevel()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 
     public void AddPoints()

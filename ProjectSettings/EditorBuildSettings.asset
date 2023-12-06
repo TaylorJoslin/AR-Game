@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/02.0 AR Shooter/Scene/Tutorial.unity
     guid: e3e210ca7bff46145ae5e67b57e08029
   - enabled: 1
+    path: Assets/02.0 AR Shooter/Scene/Tutorial 2 Enemies.unity
+    guid: 109aa12fc9ee89a4197fc25235df9b5a
+  - enabled: 1
     path: Assets/02.0 AR Shooter/Scene/Shooter.unity
     guid: 51526dde64dad44fca9b67687fb450b0
   m_configObjects:

@@ -10,6 +10,7 @@ TagManager:
   - Wall
   - boundry
   - Charged
+  - EnemyBullet
   layers:
   - Default
   - TransparentFX

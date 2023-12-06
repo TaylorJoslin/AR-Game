@@ -8,6 +8,7 @@ using UnityEngine.XR.Interaction.Toolkit.AR;
 public class ARShoot : MonoBehaviour
 {
     public GameObject projectile,chargedProjectile;
+    public Transform firePoint;
     public float shotSpeed = 4f;
     public AudioClip shootClip;
     public GameObject player,charageShot;
@@ -104,7 +105,7 @@ public class ARShoot : MonoBehaviour
 
             Vector3 directionWithoutSpread = targetPoint = transform.position;
 
-            GameObject newProjectile = Instantiate(projectile,transform.position, Quaternion.Euler(90f, 0f, 0f));
+            GameObject newProjectile = Instantiate(projectile, firePoint.position, firePoint.rotation);
             Vector3 shotVelocity = transform.forward.normalized * shotSpeed;
             newProjectile.GetComponent<Rigidbody>().velocity = shotVelocity;
             
