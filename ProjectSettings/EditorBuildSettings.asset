@@ -15,8 +15,11 @@ EditorBuildSettings:
     path: Assets/02.0 AR Shooter/Scene/Tutorial 2 Enemies.unity
     guid: 109aa12fc9ee89a4197fc25235df9b5a
   - enabled: 1
-    path: Assets/02.0 AR Shooter/Scene/Shooter.unity
-    guid: 51526dde64dad44fca9b67687fb450b0
+    path: Assets/02.0 AR Shooter/Scene/Level 3.unity
+    guid: 95ad92423d94137448971d0a73b3777a
+  - enabled: 1
+    path: Assets/02.0 AR Shooter/Scene/CREDIT.unity
+    guid: 8785e12a40f0cc84fab5aafb68ff6453
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 7df1be74e4be042fa8daaae353365dea, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 84e2cae862534403eb4f19b059a71819, type: 2}

@@ -8,13 +8,17 @@ public class ScoreSystem : MonoBehaviour
 {
     public static int Score = 0;
     public static ScoreSystem instance;
+    public int ScoreToWin;
+    public int SceneToLoad;
     public TMP_Text scoreCount;
+    
 
     public GameObject winText;
 
     private void Awake()
     {
         instance = this;
+        Time.timeScale = 1;
     }
     void Start()
     {
@@ -26,7 +30,7 @@ public class ScoreSystem : MonoBehaviour
 
     private void Update()
     {
-        if (Score == 3)
+        if (Score == ScoreToWin)
         {
             NextLevel();
         }
@@ -34,7 +38,7 @@ public class ScoreSystem : MonoBehaviour
 
     public void NextLevel()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(SceneToLoad);
     }
 
     public void AddPoints()
